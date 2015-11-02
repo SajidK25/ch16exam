@@ -20,6 +20,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 100px;
+	margin-bottom:20px;
 	box-sizing:border-box;
 	box-shadow:0 0 25px black;
 	border-radius:10px;
@@ -133,4 +134,118 @@ hr{
 	font-size: 50px;
 	color:  #7aae2a;
 	font-weight: bold;	
+}
+#trophies{
+	padding-top: 50px;
+	clear:both;
+}
+.trophies{
+	background-color: #c7d9ab;
+	border-radius:5px;
+	box-shadow:0 0 5px #888;
+	width:47%;
+	height: 200px;
+	padding:10px;
+}
+.trophies h4{
+	color: #446f01;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.trophies ul li,.trophies ol li{
+	padding-bottom: 10px;
+}
+.first-trophy{
+	float:left;
+	transition:transform 0.5s ease-in 0s;
+}
+.second-trophy{
+	float:right;
+	transition:transform 0.5s ease-in 0s;
+}
+
+.first-trophy:hover {
+	cursor: pointer;
+    transform: translate(250px, 0px);
+    
+}
+.second-trophy:hover {
+	cursor: pointer;
+    transform: translate(-250px, 0px);
+    
+}
+#education {
+    clear: both;
+    padding-bottom: 50px;
+    padding-top: 70px;
+}
+
+#education h4 {
+	font-size: 25px;
+	text-align:center;
+	transition:transform 0.5s ease-in 0s;
+	text-transform: uppercase;
+}
+
+#education h4:HOVER {
+	cursor: pointer;
+	
+	transform: scale(2, 3);
+}
+#education table {
+    border-collapse: collapse;
+    border-color: #7aae2a;
+    width: 100%;
+}
+#education table td, #education table th {
+    padding: 10px;
+    text-align: center;
+}
+#education table thead {
+    background-color: #89b840;
+    color: #fff;
+}
+#education table tbody {
+    background-color: #d7f3aa;
+}
+#education table tbody td {
+    font: 18px  cursive;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+#entertainment h4 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: transform 0.5s ease-in 0s;
+}
+#entertainment h4:hover {
+    cursor: pointer;
+    transform: scale(2, 3);
+    
+}
+#entertainment .sections {
+    margin: auto auto 50px;
+    width: 43%;
+}
+#entertainment #audio-section {
+    width: 32%;
+}
+#entertainment .sections p {
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+}
+#entertainment .sections p.title {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+#footer {
+    background-color: #b7d27a;
+    margin: auto;
+    min-height: 100px;
+    width: 100%;
 }
