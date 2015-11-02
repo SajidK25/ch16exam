@@ -141,11 +141,11 @@ hr{
 }
 .trophies{
 	background-color: #c7d9ab;
-	border-radius:5px;
+	border-radius:10px;
 	box-shadow:0 0 5px #888;
-	width:47%;
+	width:48%;
 	height: 200px;
-	padding:10px;
+	padding:7px;
 }
 .trophies h4{
 	color: #446f01;
