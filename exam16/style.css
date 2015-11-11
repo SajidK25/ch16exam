@@ -1,0 +1,128 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0;
+	background-color: grey;
+	font-family: verdana;
+	width: 100%; 
+	
+}
+#header{
+	width: 100%;
+	margin: auto;
+	background-color: green;
+	position: fixed;
+	top: 0;
+	box-shadow: 0 5px 2px -2px gray;
+	opacity:0.8;
+	padding: 10px;
+	
+}
+#content{
+	width: 90%;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing:border-box;
+	border-radius: 10px;
+	background-color: white;
+	padding: 20px;
+	box-shadow:0 0 25px black;
+	margin-top: 120px;
+	
+}
+
+
+
+h1{
+	text-shadow: 2px 3px green;
+	text-align: center;
+	font-size: 50px;
+}
+
+hr{
+	height: 5px;
+	background-color: green;
+	border: 0;
+}
+#top-content{
+	width: 100%;
+	min-height: 50#main-content{
+	
+}0px;
+	background-image: url("bg2.jpg");
+	background-size:100% 100%;
+	background-position: 0 0;
+	
+}
+#top-nav{
+	width: 100%;
+	background-color: green;
+	opacity:0.5;
+	text-align: center;
+	
+}
+#top-nav ul{
+	list-style-type: none;
+	padding: 0;
+}
+#top-nav ul li{
+	display: inline-block;
+	border-right: 1px solid black;
+	padding: 20px 40px;
+}
+#top-nav ul li:last-child{
+	border-right:none;
+}
+#top-nav ul li a{
+	color: black;
+	text-decoration: none;
+}
+#top-nav ul li a:ACTIVE{
+	color: white;
+}
+#top-nav ul li a:HOVER{
+	color: white;
+	background-color: black;
+	box-sizing:border-box;
+}
+#top-nav ul li a:VISITED{
+	color: blue;
+	
+}
+#quote{
+	background-color: white;
+	opacity:0.5;
+	width: 100%;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 70px 0;
+}
+#main-content{
+	margin: auto;
+	width: 80%;
+}
+.name{
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+#picture{
+	width: 30%;
+	float: left;
+}
+#pic{
+	transition:transform 0.5s ease-in;
+}
+#pic:HOVER{
+	transform: rotate(360deg)
+}
+#pic-desc{
+	border: 5px solid gray;
+	border-radius: 20px;
+	box-sizing:border-box;
+	width: 70%;
+	margin-top: 100px;
+	float: right;
+}
