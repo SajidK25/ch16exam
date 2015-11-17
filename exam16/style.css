@@ -1,10 +1,8 @@
-@CHARSET "UTF-8";
 body{
+	widtyh:100%;
 	margin: 0;
 	background-color: grey;
-	font-family: verdana;
-	width: 100%; 
-	
+	font-family: Verdana; 
 }
 #header{
 	width: 100%;
@@ -12,34 +10,29 @@ body{
 	background-color: green;
 	position: fixed;
 	top: 0;
-	box-shadow: 0 5px 2px -2px gray;
+	box-shadow:0 4px 2px -2px gray;
 	opacity:0.8;
+	margin-bottom: 20px;
 	padding: 10px;
-	
 }
 #content{
 	width: 90%;
-	margin-top: 80px;
-	margin-bottom: 20px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 80px;
+	margin-bottom: 20px;
 	box-sizing:border-box;
+	box-shadow:0 0 25px black;
 	border-radius: 10px;
 	background-color: white;
 	padding: 20px;
-	box-shadow:0 0 25px black;
-	margin-top: 120px;
 	
 }
-
-
-
 h1{
-	text-shadow: 2px 3px green;
-	text-align: center;
 	font-size: 50px;
+	text-align: center;
+	text-shadow:2px 3px green;
 }
-
 hr{
 	height: 5px;
 	background-color: green;
@@ -47,68 +40,68 @@ hr{
 }
 #top-content{
 	width: 100%;
-	min-height: 50#main-content{
-	
-}0px;
+	background-color: white;
 	background-image: url("bg2.jpg");
+	background-position: 0px 0px;
 	background-size:100% 100%;
-	background-position: 0 0;
-	
+	min-height: 500px; 
 }
-#top-nav{
+#nav-top{
 	width: 100%;
 	background-color: green;
 	opacity:0.5;
-	text-align: center;
-	
+	margin-bottom: 120px;
 }
-#top-nav ul{
+#nav-top ul{
 	list-style-type: none;
 	padding: 0;
+	text-align: center;
 }
-#top-nav ul li{
+#nav-top ul li{
 	display: inline-block;
 	border-right: 1px solid black;
 	padding: 20px 40px;
 }
-#top-nav ul li:last-child{
-	border-right:none;
+#nav-top ul li:last-child{
+	border-right: none;
 }
-#top-nav ul li a{
+#nav-top ul li a{
 	color: black;
 	text-decoration: none;
-}
-#top-nav ul li a:ACTIVE{
+	}
+#nav-top ul li a:ACTIVE {
 	color: white;
 }
-#top-nav ul li a:HOVER{
+#nav-top ul li a:VISITED {
+	color: white;
+}
+#nav-top ul li a:HOVER {
 	color: white;
 	background-color: black;
 	box-sizing:border-box;
 }
-#top-nav ul li a:VISITED{
-	color: blue;
-	
-}
 #quote{
 	background-color: white;
-	opacity:0.5;
+	opacity: 0.3;
 	width: 100%;
-	font-size: 20px;
+	color: green;
+	font-size:20px;
 	font-weight: bold;
-	padding: 70px 0;
+	padding: 70px 0px;
+	
 }
 #main-content{
 	margin: auto;
+	padding: 30px 0px;
 	width: 80%;
 }
 .name{
+	font-style: italic;
 	font-size: 30px;
 	font-weight: bold;
-	font-style: italic;
 	text-align: center;
 }
-#picture{
+#picture {
 	width: 30%;
 	float: left;
 }
@@ -116,13 +109,51 @@ hr{
 	transition:transform 0.5s ease-in;
 }
 #pic:HOVER{
-	transform: rotate(360deg)
+	transform:rotate(360deg);
 }
 #pic-desc{
-	border: 5px solid gray;
-	border-radius: 20px;
-	box-sizing:border-box;
 	width: 70%;
-	margin-top: 100px;
 	float: right;
+	border-radius:20px;
+	border:5px solid grey;
+	box-sizing:border-box;
+	margin-top: 100px;
+	
+}
+#trophies{
+	padding-top: 50px;
+	clear: both;
+}
+.trophies{
+	background-color: lime;
+	border-radius:10px;
+	border-shadow: 0 0 5px grey;
+	width: 38%;
+	height: 200px;
+	padding: 50px;
+}
+.trophies h4{
+	color: green;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.trophies ul li, .trophies ol li{
+	padding-bottom: 5px;
+}
+.first-trophy{
+	float: left;
+	transition:transform 0.5s ease-in;
+}
+.second-trophy{
+	float: right;
+	transition:transform 0.5s ease-in;
+}
+
+.first-trophy:HOVER {
+	transform:translate(250px,0px);
+}
+.second-trophy:HOVER {
+	transform:translate(-250px,0px);
 }
