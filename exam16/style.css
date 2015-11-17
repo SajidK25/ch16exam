@@ -213,3 +213,14 @@ hr{
     width: 100%;
 }
 
+#entertainment h4 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: transform 0.5s ease-in 0s;
+}
+#entertainment h4:hover {
+    cursor: pointer;
+    transform: scale(2, 3);
+    
+}
